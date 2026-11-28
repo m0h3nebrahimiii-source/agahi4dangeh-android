@@ -1,9 +1,0 @@
-Static verification report
-==========================
-
-The source package was checked locally in three independent passes:
-1. Project structure and required Gradle/Android files: PASS
-2. AndroidManifest.xml and Android resource XML parsing: PASS
-3. GitHub Actions YAML parsing, app-version consistency, source feature markers, and ZIP archive integrity: PASS
-
-Important limitation: No Android SDK or Gradle installation is available in the preparation environment, and outbound network access is unavailable. Therefore a real Gradle compilation, APK installation, and runtime device test were NOT performed here. The GitHub Actions workflow performs the real assembleDebug build and verifies that the APK artifact exists.
