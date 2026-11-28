@@ -1,21 +1,22 @@
+
 plugins {
-    id 'com.android.application'
+    id("com.android.application")
 }
 
 android {
-    namespace 'ir.agahi4dangeh.app'
-    compileSdk 35
+    namespace = "ir.agahi4dangeh.app"
+    compileSdk = 35
 
     defaultConfig {
-        applicationId 'ir.agahi4dangeh.app'
-        minSdk 23
-        targetSdk 35
-        versionCode 1
-        versionName '2.4.5'
+        applicationId = "ir.agahi4dangeh.app"
+        minSdk = 23
+        targetSdk = 35
+        versionCode = 1
+        versionName = "2.4.5"
     }
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_17
-        targetCompatibility JavaVersion.VERSION_17
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
 }
